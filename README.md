@@ -1,9 +1,9 @@
 # Description
 REST service (JSON/HTTP) for storing information about gateways and their associated devices.<br><br>
-Programming language: Java <br>
-Framework: Spring Boot <br>
-Database: In-memory <br>
-Automated build: Apache Maven
+- Programming language: Java
+- Framework: Spring Boot
+- Database: In-memory
+- Automated build: Apache Maven
 
 ## Available Scripts
 
