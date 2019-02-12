@@ -7,7 +7,7 @@
 
 ## Create a gateway:
 POST http://localhost:8080/gateways
-body: {
+### body: {
 "serial": "string", //a unique serial number ej: AbC123
 "name": "string", //a human-readable name ej: Gateway A
 "ip": "string" //an IPv4 address ej: 10.0.0.1
@@ -24,7 +24,7 @@ GET http://localhost:8080/gateways/{serial} // ej: http://localhost:8080/gateway
 
 ## Add a device from a gateway
 POST http://localhost:8080/gateways/{serial}/device
-body: {
+** body: {
 "vendor": "string", // ej: Vendor A
 "status": "online|offline" // ej: online
 }
