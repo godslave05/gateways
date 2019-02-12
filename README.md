@@ -1,4 +1,11 @@
-# Available Scripts
+# Description
+REST service (JSON/HTTP) for storing information about gateways and their associated devices.<br><br>
+Programming language: Java <br>
+Framework: Spring Boot <br>
+Database: In-memory <br>
+Automated build: Apache Maven
+
+## Available Scripts
 
 - To build open a console and execute ./build.sh
 - To run open a console and execute ./run.sh
