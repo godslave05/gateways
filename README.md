@@ -1,5 +1,5 @@
-To build open a console and execute ./build.sh
-To run open a console and execute ./run.sh
+- To build open a console and execute ./build.sh
+- To run open a console and execute ./run.sh
 
 ENDPOINTS:
 
