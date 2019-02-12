@@ -1,0 +1,15 @@
+com/ramniel/gateways/model/Status.class
+com/ramniel/gateways/DemoApplication.class
+com/ramniel/gateways/exception/GatewayNotFoundAdvice.class
+com/ramniel/gateways/exception/InvalidIpAddressAdvice.class
+com/ramniel/gateways/model/Device.class
+com/ramniel/gateways/exception/DeviceNotFoundException.class
+com/ramniel/gateways/controller/GatewayController.class
+com/ramniel/gateways/model/Gateway.class
+com/ramniel/gateways/exception/DeviceNotFoundAdvice.class
+com/ramniel/gateways/exception/GatewayNotFoundException.class
+com/ramniel/gateways/exception/NoMoreDeviceAllowedException.class
+com/ramniel/gateways/exception/InvalidIpAddressException.class
+com/ramniel/gateways/repository/GatewayRepository.class
+com/ramniel/gateways/exception/NoMoreDeviceAllowedAdvice.class
+com/ramniel/gateways/assembler/GatewayResourceAssembler.class

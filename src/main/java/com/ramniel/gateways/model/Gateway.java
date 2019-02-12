@@ -1,0 +1,45 @@
+package com.ramniel.gateways.model;
+
+import lombok.Data;
+
+import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+import java.util.List;
+
+@Data
+@Entity
+public class Gateway {
+
+    @Id @Column(unique=true)
+    private String serial;
+
+    @NotNull(message = "name can not be null.")
+    @NotEmpty(message = "name can not be empty.")
+    private String name;
+
+    @NotNull(message = "ip can not be null.")
+    @NotEmpty(message = "ip can not be empty.")
+    private String ip;
+
+    @OneToMany(mappedBy = "gateway", fetch = FetchType.EAGER, cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Device> devices;
+
+    public Gateway() {
+    }
+
+    public Gateway(String serial, String name, String ip) {
+        this.serial = serial;
+        this.name = name;
+        this.ip = ip;
+    }
+
+    @Override
+    public String toString() {
+        return "Gateway{" +
+                "serial='" + serial + '\'' +
+                ", name='" + name + '\'' +
+                ", ip='" + ip + '\'' +
+                '}';
+    }
+}

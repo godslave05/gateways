@@ -1,0 +1,15 @@
+/media/ramniel/SSD/Projects/Musala/gateways/src/main/java/com/ramniel/gateways/exception/DeviceNotFoundException.java
+/media/ramniel/SSD/Projects/Musala/gateways/src/main/java/com/ramniel/gateways/exception/NoMoreDeviceAllowedAdvice.java
+/media/ramniel/SSD/Projects/Musala/gateways/src/main/java/com/ramniel/gateways/exception/GatewayNotFoundException.java
+/media/ramniel/SSD/Projects/Musala/gateways/src/main/java/com/ramniel/gateways/exception/InvalidIpAddressException.java
+/media/ramniel/SSD/Projects/Musala/gateways/src/main/java/com/ramniel/gateways/exception/DeviceNotFoundAdvice.java
+/media/ramniel/SSD/Projects/Musala/gateways/src/main/java/com/ramniel/gateways/model/Status.java
+/media/ramniel/SSD/Projects/Musala/gateways/src/main/java/com/ramniel/gateways/controller/GatewayController.java
+/media/ramniel/SSD/Projects/Musala/gateways/src/main/java/com/ramniel/gateways/DemoApplication.java
+/media/ramniel/SSD/Projects/Musala/gateways/src/main/java/com/ramniel/gateways/assembler/GatewayResourceAssembler.java
+/media/ramniel/SSD/Projects/Musala/gateways/src/main/java/com/ramniel/gateways/repository/GatewayRepository.java
+/media/ramniel/SSD/Projects/Musala/gateways/src/main/java/com/ramniel/gateways/model/Device.java
+/media/ramniel/SSD/Projects/Musala/gateways/src/main/java/com/ramniel/gateways/model/Gateway.java
+/media/ramniel/SSD/Projects/Musala/gateways/src/main/java/com/ramniel/gateways/exception/NoMoreDeviceAllowedException.java
+/media/ramniel/SSD/Projects/Musala/gateways/src/main/java/com/ramniel/gateways/exception/GatewayNotFoundAdvice.java
+/media/ramniel/SSD/Projects/Musala/gateways/src/main/java/com/ramniel/gateways/exception/InvalidIpAddressAdvice.java
