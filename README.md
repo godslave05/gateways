@@ -1,5 +1,5 @@
 # Description
-REST service (JSON/HTTP) for storing information about gateways and their associated devices.<br><br>
+REST service (JSON/HTTP) for storing information about gateways and their associated devices.<br>
 - Programming language: Java
 - Framework: Spring Boot
 - Database: In-memory
